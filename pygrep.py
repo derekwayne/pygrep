@@ -40,6 +40,6 @@ def search(file_map, pattern, history=1):
 if __name__ == '__main__':
   with open('test.txt', mode='r', encoding='utf8') as file_obj:
     with mmap.mmap(file_obj.fileno(), length=0, access=mmap.ACCESS_READ) as mmap_obj:
-      for lines in search(mmap_obj, pattern='Hello', history=4):
+      for lines in search(mmap_obj, pattern='world', history=1):
         for pline in lines:
           print(pline)
