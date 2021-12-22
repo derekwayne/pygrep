@@ -1,0 +1,14 @@
+Hello Python!
+Hello world! This is my world!
+this is just another line...
+this line should world not show up in the output! world world.
+Neither should this line
+or this line for that matter
+Well, here we go again
+What a world we live in!
+here is some more text
+yet another line
+what is wrong with this life
+This is the end of the file.
+world
+lines
